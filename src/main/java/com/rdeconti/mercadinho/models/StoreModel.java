@@ -1,9 +1,14 @@
 package com.rdeconti.mercadinho.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="STORES")
 public class StoreModel {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer store_ID;
     private Integer store_contactID;
     private Boolean store_status;

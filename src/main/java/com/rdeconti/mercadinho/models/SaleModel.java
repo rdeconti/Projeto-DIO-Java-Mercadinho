@@ -1,9 +1,14 @@
 package com.rdeconti.mercadinho.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="SALES")
 public class SaleModel {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer sale_ID;
     private Integer sale_storeID;
     private Integer sale_customerID;

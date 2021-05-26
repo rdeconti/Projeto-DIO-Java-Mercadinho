@@ -1,9 +1,14 @@
 package com.rdeconti.mercadinho.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="USERS")
 public class UserModel {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer user_ID;
     private Integer user_contactID;
     private String user_password;

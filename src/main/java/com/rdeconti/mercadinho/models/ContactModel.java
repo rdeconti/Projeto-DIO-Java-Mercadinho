@@ -1,9 +1,16 @@
 package com.rdeconti.mercadinho.models;
 
+import com.avanade.dio.api.models.EstoqueId;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="CONTACTS")
 public class ContactModel {
 
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer contact_ID;
     private String contact_name;
     private String contact_address;

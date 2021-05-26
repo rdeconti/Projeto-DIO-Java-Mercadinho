@@ -1,9 +1,14 @@
 package com.rdeconti.mercadinho.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="VENDORS")
 public class VendorModel {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer vendor_ID;
     private Integer vendor_contactID;
     private Boolean vendor_status;

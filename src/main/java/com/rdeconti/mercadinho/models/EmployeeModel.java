@@ -1,10 +1,15 @@
 package com.rdeconti.mercadinho.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Date;
 
+@Entity
+@Table(name="EMPLOYEES")
 public class EmployeeModel {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer employee_ID;
     private Integer employee_contactID;
     private Boolean employee_status;
