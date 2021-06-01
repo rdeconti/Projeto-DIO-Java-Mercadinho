@@ -14,7 +14,7 @@
 
 # Descrição
 Missão: colaborar com o projeto que será realizado durante as melhorias. Criei este projeto em paralelo para conhecer melhor as feraamentas.
-Criei um projeto no Google para gerencimento: https://github.com/users/rdeconti/projects/2
+Criei um projeto no Google para simular um SCRUM - https://github.com/users/rdeconti/projects/2
 
 # Criação do projeto
 - Utilizei este link para criar a estrutura do projeto com Spring Boot utilizando o VsCode
@@ -22,5 +22,5 @@ Criei um projeto no Google para gerencimento: https://github.com/users/rdeconti/
 - Utilizei este link para atualizar o Java para o Maven
   https://stackoverflow.com/questions/63043585/visual-studio-code-showing-java-11-or-more-recent-is-required-to-run-please-do
 
-## Lista com erros
-<img src="????" />
+## Teste da página em 01/06/2021 - Somente listado os estoques de 3 lojas (SQL com carga de teste)
+<img src="https://github.com/rdeconti/Projeto-DIO-Java-Mercadinho/tree/main/additional_tests_done" />
